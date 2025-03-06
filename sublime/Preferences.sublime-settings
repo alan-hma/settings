@@ -1,0 +1,17 @@
+{
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"auto_complete": false,
+	"auto_match_enabled": false,
+	"hot_exit": false,
+	"remember_open_files": false,
+	"access_token": "FILL THIS IN LATER",
+	"update_check": false,
+	"word_wrap": "true",
+	"ui_scale": 1.0,
+	"font_size": 8,
+	"index_files": true,
+	"overlay_scroll_bars": "disabled",
+}
