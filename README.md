@@ -6,6 +6,11 @@ Store the settings to the tools that I use here.
 ## Sublime
 - Copy `Preferences.sublime-settings` to `C:\Users\<me>\AppData\Roaming\Sublime Text\Packages\User`
 
+## Powershell
+- Copy `Microsoft.PowerShell_profile.ps1` to `C:\Users\<username>\<one drive trash>\Documents\WindowsPowerShell`
+- Install [posh-git](https://github.com/dahlbyk/posh-git): `Install-Module -Name Get-ChildItemColor -Scope CurrentUser -Force`
+- Install [Get-ChildItemColor](https://github.com/joonro/Get-ChildItemColor): `Install-Module posh-git -Scope CurrentUser -Force`
+
 ## Software checklist
 - VS Code
 - VS Pro
@@ -19,6 +24,7 @@ Store the settings to the tools that I use here.
 - WSL2, Debian
 - Docker
 - Firefox
+- Brave
 - Remote Desktop
 
 ### Packages to install on Debian

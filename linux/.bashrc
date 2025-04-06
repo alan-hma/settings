@@ -119,10 +119,13 @@ fi
 
 # AMS customizations
 #
-
+eval "$(ssh-agent -s)"
+alias lgh='ssh-add ~/.ssh/id_ed25519'
 
 alias cdr='cd /home/alans/repos/'
-
+alias cdrw='cd /mnt/c/Users/alans/repos/'
+alias cdwin='cd /mnt/c/Users/alans/'
+alias subl='/mnt/c/Program\ Files/Sublime\ Text/sublime_text.exe'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
